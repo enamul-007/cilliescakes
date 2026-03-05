@@ -33,7 +33,7 @@ textarea {
   --accent: #e84a84;
   --accent-bg: rgba(232, 74, 132, .1);
   --orange: #E67E22;
-  --bg-light: #FFFDD0;
+  --bg-light: #f0f0ed;
   --bg-dark: #211117;
   --chocolate: #3E2723;
   --r-sm: 12px;
@@ -109,7 +109,7 @@ p {
 
 /* Glass */
 .glass-nav {
-  background: rgba(255, 253, 208, .82);
+  background: rgba(253, 253, 249, 0.82);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   border-bottom: 1px solid rgba(61, 43, 31, .07)
