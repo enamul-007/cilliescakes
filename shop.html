@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cake Flavors & Prices | Cillie's Cakes</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+<script src="navbar.js"></script>
+
+<div class="wrap" style="padding-top:36px;padding-bottom:0">
+  <div class="breadcrumb"><a href="index.html">Home</a><span>/</span><span>Cake Flavors &amp; Prices</span></div>
+  <div style="display:flex;justify-content:space-between;align-items:flex-end;padding-bottom:24px;flex-wrap:wrap;gap:14px">
+    <div>
+      <h1 style="font-size:clamp(1.8rem,4vw,3rem)">Cake Flavors &amp; Prices</h1>
+      <p style="opacity:.6;margin-top:6px;font-size:.88rem">All cakes have layers and filling within. Custom design prices vary &mdash; please call.</p>
+    </div>
+  </div>
+</div>
+
+<div class="wrap shop-layout">
+  <aside class="shop-sidebar">
+    <div class="glass-card" style="padding:20px;border-radius:20px">
+      <div class="filter-group">
+        <h5>Categories</h5>
+        <a class="filter-link active" href="shop.html">All Cakes <span class="count-badge">24</span></a>
+        <a class="filter-link" href="#">Wedding Cakes <span class="count-badge">8</span></a>
+        <a class="filter-link" href="#">Birthday Cakes <span class="count-badge">12</span></a>
+        <a class="filter-link" href="#">Specialty Flavors <span class="count-badge">10</span></a>
+        <a class="filter-link" href="sweets.html">Sweets &amp; Treats <span class="count-badge">15</span></a>
+      </div>
+    </div>
+    <div class="glass-card" style="padding:20px;border-radius:20px">
+      <div class="filter-group">
+        <h5>Cake Size</h5>
+        <a class="filter-link" href="#">8 inch (15 servings)</a>
+        <a class="filter-link" href="#">10 inch (20+ servings)</a>
+        <a class="filter-link" href="#">12 inch (35+ servings)</a>
+        <a class="filter-link" href="#">1/3 Sheet (35+)</a>
+        <a class="filter-link" href="#">1/2 Sheet (60+)</a>
+      </div>
+    </div>
+    <div style="background:var(--primary);border-radius:20px;padding:22px;color:#fff">
+      <h4 style="font-size:1rem;margin-bottom:8px;font-family:'Playfair Display',serif">Need a Custom Cake?</h4>
+      <p style="font-size:.77rem;opacity:.75;line-height:1.6;margin-bottom:14px">Min 2 weeks notice. Prices vary by design &amp; detail.</p>
+      <a href="custom-order.html" style="display:block;background:#fff;color:var(--primary);text-align:center;padding:10px;border-radius:11px;font-weight:700;font-size:.84rem;text-decoration:none">Enquire Now</a>
+    </div>
+  </aside>
+
+  <div class="shop-main">
+    <div style="margin-bottom:44px">
+      <span class="section-label">Sizing &amp; Pricing</span>
+      <h3 style="font-size:clamp(1.4rem,3vw,1.8rem);margin-bottom:20px">Regular Decorated Cakes</h3>
+      <table class="price-table">
+        <thead><tr><th>Size</th><th>Servings</th><th>Price</th><th class="hide-sm">Notes</th></tr></thead>
+        <tbody>
+          <tr><td><strong>8 inch &middot; 4 layer</strong></td><td>~15 guests</td><td><strong style="color:var(--accent)">$40</strong></td><td class="hide-sm" style="opacity:.6">Most popular size</td></tr>
+          <tr><td><strong>10 inch &middot; 4 layer</strong></td><td>20+ guests</td><td><strong style="color:var(--accent)">$55</strong></td><td class="hide-sm"></td></tr>
+          <tr><td><strong>12 inch &middot; 4 layer</strong></td><td>35+ guests</td><td><strong style="color:var(--accent)">$85</strong></td><td class="hide-sm"></td></tr>
+          <tr><td><strong>1/3 Sheet Cake</strong></td><td>35+ guests</td><td><strong style="color:var(--accent)">$85</strong></td><td class="hide-sm"></td></tr>
+          <tr><td><strong>1/2 Sheet Cake</strong></td><td>60+ guests</td><td><strong style="color:var(--accent)">$105</strong></td><td class="hide-sm" style="opacity:.6">Great for large events</td></tr>
+        </tbody>
+      </table>
+      <div class="spec-grid">
+        <div class="glass-card" style="padding:18px;border-radius:16px">
+          <h5 style="font-size:.88rem;font-weight:700;margin-bottom:10px;display:flex;align-items:center;gap:7px;font-family:'Plus Jakarta Sans',sans-serif">Pista Burfi / Gulab Jamun / Ras Malai</h5>
+          <p style="font-size:.77rem;opacity:.65;margin-bottom:8px">Available in 8&rdquo; and 10&rdquo; only</p>
+          <div style="display:flex;gap:14px;font-size:.88rem;font-weight:700">8&rdquo; &mdash; <span style="color:var(--accent)">$55</span>&nbsp;&nbsp;10&rdquo; &mdash; <span style="color:var(--accent)">$75</span></div>
+        </div>
+        <div class="glass-card" style="padding:18px;border-radius:16px">
+          <h5 style="font-size:.88rem;font-weight:700;margin-bottom:10px;display:flex;align-items:center;gap:7px;font-family:'Plus Jakarta Sans',sans-serif">Ferrero Rocher / Chocolate Ganache</h5>
+          <p style="font-size:.77rem;opacity:.65;margin-bottom:8px">Premium chocolate finishes</p>
+          <div style="display:flex;gap:14px;font-size:.88rem;font-weight:700">8&rdquo; &mdash; <span style="color:var(--accent)">$45</span>&nbsp;&nbsp;10&rdquo; &mdash; <span style="color:var(--accent)">$60</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div style="margin-bottom:44px">
+      <span class="section-label">Signature Flavors</span>
+      <h3 style="font-size:clamp(1.4rem,3vw,1.8rem);margin-bottom:22px">Our Flavors</h3>
+      <div class="flavor-cards-grid">
+        <div class="glass-card flavor-card"><img src="https://static.wixstatic.com/media/90a441_d64cd4d8e9574e52bd6eb037df5e5810~mv2.jpg/v1/fill/w_330,h_220,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/90a441_d64cd4d8e9574e52bd6eb037df5e5810~mv2.jpg" alt="Tropical Paradise"/><div class="fc-body"><h4>Tropical Paradise</h4><p>Vanilla cake with whipped cream layered with strawberry, pineapple and peaches.</p></div></div>
+        <div class="glass-card flavor-card"><img src="https://static.wixstatic.com/media/90a441_49f6d7f60da54f74abb98ab02feba5b9~mv2.jpg/v1/fill/w_330,h_220,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/90a441_49f6d7f60da54f74abb98ab02feba5b9~mv2.jpg" alt="Hersheys"/><div class="fc-body"><h4>Hershey&rsquo;s Vanilla Chocolate</h4><p>Vanilla cake layered with smooth chocolate cream and drizzled chocolate sauce.</p></div></div>
+        <div class="glass-card flavor-card"><img src="https://static.wixstatic.com/media/90a441_93ea88047ca24795921840c12e2af71f~mv2.jpg/v1/fill/w_330,h_220,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/90a441_93ea88047ca24795921840c12e2af71f~mv2.jpg" alt="Coffee Cream"/><div class="fc-body"><h4>Coffee Cream Cake</h4><p>Coffee cake with layers of rich coffee cream. Not too strong, not too light.</p></div></div>
+        <div class="glass-card flavor-card"><img src="https://static.wixstatic.com/media/90a441_32df5531b3404b16a5b4724104f67afa~mv2.jpg/v1/fill/w_330,h_220,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/90a441_32df5531b3404b16a5b4724104f67afa~mv2.jpg" alt="Chocolate"/><div class="fc-body"><h4>I Love Chocolate</h4><p>All chocolate cake layered with smooth light chocolate cream.</p></div></div>
+        <div class="glass-card flavor-card"><img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCBmDVMKQN0WPZPvoce-D6c1iXFratgqIxGaqefff4fmr-pRFAL-RJwPZ6VTnWXCQajGNzNOp4zX0MMVX5pWMKQH-XjtIYypw35yn6NP0lmekFMSNhJAiEIOe4ph-KvRRQ_59bwRZE-Zq-2F8fTpMnk8kwFEPq8InFWz68Nyr7qGOXBgIm9O6YKBKN9pvwyLfAkvbAbNxdDOTuID_yLDjGurOwypXsT9Zu98jY-kCL-5jI-CqupesGC8jE5wY0MeXbHfc7TGHP7LZUB" alt="Ferrero Rocher"/><div class="fc-body"><h4>Ferrero Rocher</h4><p>Indulgent layers with crushed Ferrero chocolates and silky ganache cream.</p></div></div>
+        <div class="glass-card flavor-card"><img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCAWC6RbDaY9_jjgtI2Uq31MT9IxoH7lolNM8sKdtKQ6-7FmV_0fqSa-Eu-PJlNZf_PC6xSgYq9iRW6fyZzPuoF9T87gO5c2LOmyJdymXqxJUSm6Q2761Nj8e-GZJTGOTV5YGsHc_ElNBTQk_x1iH30WS_Bz_WeTVrWYP3dxSFA77vaPtVo0HCHeJEJK-Hf60YU9NUY2wHCUA_dPbeFEIAa4hbxrmHR0Q8UNlRkRydhjS-Vc_h34OjlGbiHvEm08lyoc6KXX02L4eRQ" alt="Pista Burfi"/><div class="fc-body"><h4>Pista Burfi</h4><p>Pistachio-infused cake with a rich fragrant burfi-style filling.</p></div></div>
+      </div>
+    </div>
+
+    <div class="glass-card" style="padding:26px;border-radius:22px">
+      <span class="section-label">Complete Menu</span>
+      <h3 style="font-size:1.4rem;margin-bottom:16px">All Available Flavors</h3>
+      <div class="all-flavors">
+        <span class="af-pill"><i class="fa-solid fa-cake-candles"></i>Tres Leches</span>
+        <span class="af-pill"><i class="fa-solid fa-cake-candles"></i>Tropical Paradise</span>
+        <span class="af-pill"><i class="fa-solid fa-cake-candles"></i>Vanilla Choc Raspberry</span>
+        <span class="af-pill"><i class="fa-solid fa-cake-candles"></i>Vanilla Choc Strawberry</span>
+        <span class="af-pill"><i class="fa-solid fa-cake-candles"></i>Strawberry &amp; Cream</span>
+        <span class="af-pill"><i class="fa-solid fa-cake-candles"></i>Mango Delight</span>
+        <span class="af-pill"><i class="fa-solid fa-cake-candles"></i>Pineapple Cream</span>
+        <span class="af-pill"><i class="fa-solid fa-cake-candles"></i>Coffee Cream</span>
+        <span class="af-pill"><i class="fa-solid fa-cake-candles"></i>Coffee Crunch</span>
+        <span class="af-pill"><i class="fa-solid fa-cake-candles"></i>Black Forest</span>
+        <span class="af-pill"><i class="fa-solid fa-cake-candles"></i>Ferrero Rocher</span>
+        <span class="af-pill"><i class="fa-solid fa-cake-candles"></i>Cookies &amp; Cream</span>
+        <span class="af-pill"><i class="fa-solid fa-cake-candles"></i>Chocolate Ganache</span>
+        <span class="af-pill"><i class="fa-solid fa-cake-candles"></i>Ras Malai</span>
+        <span class="af-pill"><i class="fa-solid fa-cake-candles"></i>Pista Burfi</span>
+        <span class="af-pill"><i class="fa-solid fa-cake-candles"></i>Gulab Jamun</span>
+      </div>
+      <p style="margin-top:16px;font-size:.78rem;opacity:.5;font-style:italic">Have a special request? <a href="contact.html" style="color:var(--accent);text-decoration:underline">Get in touch.</a></p>
+    </div>
+  </div>
+</div>
+
+
+<script src="footer.js"></script>
+</body>
+</html>

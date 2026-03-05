@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Custom Cake Order | Cillie's Cakes</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+<script src="navbar.js"></script>
+
+<div class="wrap" style="padding-top:40px;padding-bottom:16px">
+  <div class="breadcrumb"><a href="index.html">Home</a><span>/</span><span>Custom Orders</span></div>
+  <h1 style="font-size:clamp(1.9rem,5vw,3.4rem);margin-bottom:12px">Custom Cake Inquiry</h1>
+  <p style="opacity:.65;font-size:.97rem;max-width:580px;line-height:1.7;margin-bottom:24px">Fill out the form below and we'll get back to you within 24&ndash;48 business hours. Minimum <strong>2 weeks notice</strong> required for all custom orders.</p>
+  <div style="background:rgba(232,74,132,.08);border-left:4px solid var(--accent);border-radius:0 13px 13px 0;padding:14px 18px;margin-bottom:32px;display:flex;align-items:flex-start;gap:10px">
+    
+    <div>
+      <p style="font-weight:700;margin-bottom:3px;font-size:.9rem">Minimum 2 Weeks Notice Required</p>
+      <p style="font-size:.8rem;opacity:.65;line-height:1.6">We require a minimum of 2 weeks notice for all custom cake orders. Last-minute requests cannot be guaranteed.</p>
+    </div>
+  </div>
+</div>
+
+<div class="wrap custom-layout">
+  <div class="custom-sticky">
+    <div class="custom-img">
+      <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCP-T-te41wjpaf9KYaeekVOpd2fLO3Esj4hksPhcwOWL4pLQHWIdgSqAVbzyLBJMqQyKI9-Cv3_wrVlxd8ELRcezi7gwAU8R-fmdn7AQVh1SUkKHs5Utn6gNnMYfPLN5ejFaWauv9WiGQouko7Q0ehdHf5lDNmOPUPAWsyv2UPkAZT2socIrIusRY89vJT3_Hc2o-FX3PlQ0IkTUhQx-OPcGCOWNxMQ6v6ZBqAJLxyJOGLaS9MuLIdmISgtgb2FzM3k8UN-DNiA9gQ" alt="Custom wedding cake"/>
+    </div>
+    <div class="feature-chips">
+      <div class="feature-chip"><i class="fa-solid fa-shield-halved"></i>Handcrafted with premium organic ingredients</div>
+      <div class="feature-chip"><i class="fa-solid fa-truck"></i>Delivery available</div>
+      <div class="feature-chip"><i class="fa-solid fa-wand-magic-sparkles"></i>Complimentary tasting for 50+ guests</div>
+    </div>
+    <div class="glass-card price-from">
+      <div class="price-from-label">Starting From</div>
+      <div class="price-from-num">$350.00</div>
+      <div class="price-from-note">* Prices vary by design, size &amp; floral choices</div>
+    </div>
+  </div>
+
+  <div class="glass-card custom-form-card">
+    <div class="step-head"><div class="step-badge">1</div><h3>Size &amp; Servings</h3></div>
+    <p style="font-size:.76rem;font-weight:700;text-transform:uppercase;letter-spacing:.07em;opacity:.55;margin-bottom:10px">Select Size</p>
+    <div class="size-btns" style="margin-bottom:28px">
+      <button class="size-btn active">25&ndash;40</button>
+      <button class="size-btn">50&ndash;75</button>
+      <button class="size-btn">100+</button>
+      <button class="size-btn">Custom Tiered</button>
+    </div>
+
+    <div class="step-head"><div class="step-badge">2</div><h3>Event Details</h3></div>
+    <div class="form-grid-2" style="margin-bottom:28px">
+      <div class="form-field"><label>Event Date</label><input type="date"/></div>
+      <div class="form-field"><label>Estimated Guests</label><select><option>Select guest count</option><option>10&ndash;25 guests</option><option>25&ndash;50 guests</option><option>50&ndash;100 guests</option><option>100+ guests</option></select></div>
+    </div>
+
+    <div class="step-head"><div class="step-badge">3</div><h3>Flavor &amp; Design</h3></div>
+    <div style="display:flex;flex-direction:column;gap:16px;margin-bottom:28px">
+      <div class="form-field"><label>Cake Flavor</label><select><option>Choose a base flavor</option><option>Vanilla Bean Silk</option><option>Classic Red Velvet</option><option>Rich Belgian Chocolate</option><option>Lemon Raspberry Swirl</option><option>Tropical Paradise</option><option>Coffee Cream</option><option>Black Forest</option><option>Ferrero Rocher</option><option>Mango Delight</option><option>Tres Leches</option><option>Ras Malai</option><option>Pista Burfi</option><option>Gulab Jamun</option><option>Custom Request</option></select></div>
+      <div class="form-field"><label>Filling Preference</label>
+        <div class="filling-grid">
+          <button class="filling-btn" onclick="this.classList.toggle('active')">Cream Cheese <i class="fa-solid fa-circle-check"></i></button>
+          <button class="filling-btn" onclick="this.classList.toggle('active')">Dark Ganache <i class="fa-solid fa-circle-check"></i></button>
+          <button class="filling-btn" onclick="this.classList.toggle('active')">Fresh Fruit <i class="fa-solid fa-circle-check"></i></button>
+          <button class="filling-btn" onclick="this.classList.toggle('active')">Whipped Cream <i class="fa-solid fa-circle-check"></i></button>
+        </div>
+      </div>
+      <div class="form-field"><label>Inspiration Notes</label><textarea rows="4" placeholder="Tell us about your theme, colors, or specific design elements you love..."></textarea></div>
+      <div class="form-field"><label>Upload Inspiration (Optional)</label>
+        <div class="upload-zone">
+          
+          <p style="font-size:.82rem;opacity:.6;text-align:center">Drag and drop images or <span style="color:var(--accent);font-weight:700;cursor:pointer">browse</span></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="step-head"><div class="step-badge">4</div><h3>Your Details</h3></div>
+    <div style="display:flex;flex-direction:column;gap:14px;margin-bottom:28px">
+      <div class="form-grid-2">
+        <div class="form-field"><label>Name *</label><input type="text" placeholder="Full name"/></div>
+        <div class="form-field"><label>Email *</label><input type="email" placeholder="your@email.com"/></div>
+      </div>
+      <div class="form-field"><label>Phone Number</label><input type="tel" placeholder="(281) 000-0000"/></div>
+    </div>
+
+    <div style="padding-top:16px;border-top:1px solid rgba(61,43,31,.08)">
+      <button class="btn-primary" style="font-size:.97rem;padding:15px 36px;width:100%;justify-content:center">
+        Submit Inquiry 
+      </button>
+      <p style="margin-top:12px;font-size:.72rem;opacity:.5;text-align:center;font-style:italic">* We typically respond within 24&ndash;48 business hours. Weekends may take longer.</p>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.querySelectorAll('.size-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.size-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+    });
+  });
+</script>
+
+<script src="footer.js"></script>
+</body>
+</html>
